@@ -12,7 +12,7 @@ export const experience = [
     en: "Gained practical experience in IT support.",
     de: "Sammelte praktische Erfahrung im IT-Support." }
 ];
-
+//identifies the posting
 export function identifyPosting(value) {
   try {
     const url = new URL(value.trim());
